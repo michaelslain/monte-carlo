@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import random
 
 # sample data
@@ -78,6 +77,7 @@ for simulationNum in range(0, repeat):
 points1Avg = np.mean(points1)
 points2Avg = np.mean(points2)
 
+# print data
 print('-- Average points per type of simulation --')
 print('-- (negative is worse)')
 print(f'-- Without dislikes: {points1Avg}')
